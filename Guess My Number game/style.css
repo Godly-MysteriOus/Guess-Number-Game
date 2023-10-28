@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 98vw;
+    height: 98vh;
+    background-color: black;
+    box-sizing: border-box;
+}
+.header{
+    width: 98vw;
+    height: fit-content;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 10px;
+    display: grid;
+    border-bottom:2px solid white;
+}
+.firstLine{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 3%;
+}
+.againButtonHolder,.informationHolder{
+    box-sizing: border-box;
+    width: fit-content;
+    font-size: 32px;
+}
+.informationHolder{
+    justify-content: end;
+}
+.againButton,.check{
+    font-size: 24px;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.secondLine,.resultBlock{
+    justify-self: center;
+    font-size: 32px;
+    margin-top: 2%;
+}
+.onlyCorrectNumberDisplay{
+    justify-self: center;
+    position: relative;
+    width: 8rem;
+    transform: translate(0%,50%);
+    font-size: 56px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.maincontainer{
+    margin-top: 10%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    height: fit-content;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inputBlock,.resultBlock{
+    box-sizing: border-box;
+    height: fit-content;
+    color: white;
+    display: grid;
+    justify-items: center;
+    flex-grow: 1;
+}
+
+.check{
+    height: fit-content;
+    align-self: center;
+}
+.resultBlock p{
+    justify-self: center;
+}
+.EnterNumber{
+    width: 160px;
+    box-sizing: border-box;
+    height: fit-content;
+    font-size: 24px;
+    padding: 10px 40px;
+}
+.ResultHolder{
+    width: 8em;
+    text-align: center;
+}
